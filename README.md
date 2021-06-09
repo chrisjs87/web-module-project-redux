@@ -27,14 +27,16 @@ In this project, you take a fairly complex application used to search a movie da
 
 ### Task 2: Project Requirements
 #### Setup Redux
-> *The DOM and movie reducer has been provided for you, but it's up to to connect it to redux...*
+> *The DOM and movie reducer has been provided for you, but it's up to you to connect it to redux...*
 
-* [ ] In index.js, make use of the createStore method and Provider component to link your App to redux.
+* [COMPLETE] In index.js, make use of the createStore method and Provider component to link your App to redux.
+
+---------------------------------Here-----------------------------
 
 #### Connecting the Movie reducer
-> *Within the reducers folder is the movieReducers file. We have the state already setup it up here with some initial data. Let's connect that state to our component.*
+> *Within the reducers folder is the movieReducer file. We have the state already setup here with some initial data. Let's connect that state to our component.*
 
-* [ ] **In movieReducer.js, make sure that we are setting our state by default to initialState.** Otherwise your state will not have the original structure it needs to function!
+* [COMPLETE] **In movieReducer.js, make sure that we are setting our state by default to initialState.** Otherwise your state will not have the original structure it needs to function!
 
 * [ ] **The MovieList component prints all of our movies to the screen.** Use the connect method here to map the movies state value into props. Replace our static movie variable with that prop.
 
